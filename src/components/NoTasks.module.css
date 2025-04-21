@@ -1,0 +1,26 @@
+.noTasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 64px 24px;
+}
+
+.noTasks p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--gray-300);
+  padding: 0px;
+  line-height: 140%;
+  text-align: center;
+}
+
+.noTasks span {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--gray-300);
+  padding: 0px;
+}

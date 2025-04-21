@@ -1,0 +1,45 @@
+.taskUncompleted {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  text-align: start;
+  width: 100%;
+  background-color: var(--gray-500);
+  border-radius: 8px;
+  padding: 16px;
+  gap: 12px;
+  color: var(--gray-100);
+  min-height: 72px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.taskCompleted {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  text-align: start;
+  width: 100%;
+  background-color: var(--gray-500);
+  border-radius: 8px;
+  padding: 16px;
+  gap: 12px;
+  color: var(--gray-300);
+  text-decoration: line-through;
+  min-height: 72px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.taskTitle {
+  flex-grow: 1;
+  margin: 0;
+}
+
+.trashIcon {
+  cursor: pointer;
+  color: var(--gray-300);
+  width: 24px;
+  height: 24px;
+  align-self: start;
+}
